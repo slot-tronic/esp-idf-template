@@ -83,14 +83,14 @@ Download and install the free VS Code IDE from here: [VS Code homepage](https://
 
 ### Install required VS Code addins
 
-+ Open Extensions view in VS Code (in sidebar or by pressing CTRL+SHIFT+X)
-+ Search for _ms-vscode.cpptools_
-+ Press "install" button
-+ Wait for installation to complete
+1. Open Extensions view in VS Code (in sidebar or by pressing CTRL+SHIFT+X)
+2. Search for _ms-vscode.cpptools_
+3. Press "install" button
+4. Wait for installation to complete
 
 ## Project setup and build
 
-After installation of all tools, you can now proceed to setting up the project and building/deploying oit on the ESP32-PICO-D4 target.
+After installation of all tools, you can now proceed to setting up the project and building/deploying oit on the ESP32-PICO-D4 target by following these steps:
 
 1. Clone this GitHub repository
 2. Open this project in VS Code
@@ -148,7 +148,7 @@ Detailed information about this step can be found here [Cloning a repository](ht
 ### Build the application
 
 1. Press CTRL+SHIFT+B to open the build target list
-2. Select the build target "build"
+2. Select the build target "**build**"
 3. Wait for flash procedure to complete
 
 ### Deploy the application on target
@@ -157,7 +157,7 @@ Perform the following steps to deploy this project on an Espressif ESP-PICO-KIT 
 
 1. Connect the Espressif ESP32-PICO-KIT board to your PC via USB
 2. Press ALT+CTRL+B to open the build target list
-3. Select the build target "flash"
+3. Select the build target "**flash**"
 4. Wait for flash procedure to complete
 5. Connect to the ESP32-PICO-KIT console with a monitor program and check output
 
